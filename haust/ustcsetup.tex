@@ -1,0 +1,112 @@
+% !TeX root = ./main.tex
+
+% 注意：\ustcsetup 的键值列表中，最后一项后面不要留“逗号”，否则在部分 LaTeX 发行版/编辑器
+% 组合下会触发 keyval 解析错误（例如：Paragraph ended before \kv@processor@default ...）。
+\ustcsetup{
+  title           = {河南科技大学latex模板},
+  title*          = {Henan University of Science and Technology LaTeX Template},
+  author          = {姓名},
+  author*         = {},
+  % ===== 河科大封面字段（可按需填写） =====
+  clc             = {\hspace{6em}},
+  udc             = {\hspace{6em}},
+  serial-number   = {\hspace{6em}},
+  degree-category  = {工学博士},
+  degree-category* = {Master of Engineering},
+  % 专业学位填写（可留空）
+  co-supervisor    = {},
+  professional-field  = {},
+  professional-field* = {},
+  speciality      = {控制科学与工程},
+  sub-speciality  = {系统工程},
+  supervisor      = {XXX~教授},
+  % ===== 河科大摘要字段（可按需填写） =====
+%  thesis-type     = {应用研究},
+%  thesis-type*    = {Applied research},
+%  subject-source  = {国家自然科学基金项目（示例）},
+%  subject-source* = {NSFC project (example)},
+  % 数学字体
+  % math-style      = GB,  % 可选：GB, TeX, ISO
+  math-font       = xits  % 可选：stix, xits, libertinus
+}
+
+
+% ===== 封面成文时间（手动填写到“月”）=====
+% 示例：\coverdate{2024 年 12 月}
+\coverdate{2026 年 1 月}
+
+
+% 加载宏包
+
+% 定理类环境宏包
+\usepackage{amsthm}
+
+% 插图
+\usepackage{graphicx}
+
+% 英文图题、表题
+\usepackage{bicaption}
+
+% 三线表
+\usepackage{booktabs}
+
+% 表注
+\usepackage{threeparttable}
+
+% 跨页表格
+\usepackage{longtable}
+
+% 算法
+\usepackage[ruled,linesnumbered]{algorithm2e}
+
+% SI 量和单位
+\usepackage{siunitx}
+
+% 参考文献使用 BibTeX + natbib 宏包
+% 顺序编码制
+\usepackage[sort]{natbib}
+\bibliographystyle{ustcthesis-numerical}
+
+% 著者-出版年制
+% \usepackage{natbib}
+% \bibliographystyle{ustcthesis-authoryear}
+
+% 本科生参考文献的著录格式
+% \usepackage[sort]{natbib}
+% \bibliographystyle{ustcthesis-bachelor}
+
+% 参考文献使用 BibLaTeX 宏包
+% \usepackage[style=ustcthesis-numeric]{biblatex}
+% \usepackage[bibstyle=ustcthesis-numeric,citestyle=ustcthesis-inline]{biblatex}
+% \usepackage[style=ustcthesis-authoryear]{biblatex}
+% \usepackage[style=ustcthesis-bachelor]{biblatex}
+% 声明 BibLaTeX 的数据库
+% \addbibresource{bib/ustc.bib}
+
+% 配置图片的默认目录
+\graphicspath{{figures/}}
+
+% 数学命令
+\makeatletter
+\providecommand\dif{%  % 微分符号
+  \mathop{}\!%
+  \ifustc@math@style@TeX
+    d%
+  \else
+    \mathrm{d}%
+  \fi
+}
+\makeatother
+\providecommand\eu{{\symup{e}}}
+\providecommand\iu{{\symup{i}}}
+
+% 用于写文档的命令
+\DeclareRobustCommand\cs[1]{\texttt{\char`\\#1}}
+\DeclareRobustCommand\env[1]{\texttt{#1}}
+\DeclareRobustCommand\pkg[1]{\textsf{#1}}
+\DeclareRobustCommand\file[1]{\nolinkurl{#1}}
+
+% hyperref 宏包在最后调用
+\usepackage{hyperref}
+
+

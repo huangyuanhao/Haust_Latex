@@ -1,0 +1,24 @@
+\contentsline {chapter}{\numberline {第1章}简介}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}一级节标题}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}二级节标题}{1}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}脚注}{1}{section.1.2}%
+\contentsline {chapter}{\numberline {第2章}插图和表格}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}三线表}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}插图}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.3}算法环境}{3}{section.2.3}%
+\contentsline {chapter}{\numberline {第3章}数学}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}数学符号}{4}{section.3.1}%
+\contentsline {section}{\numberline {3.2}数学公式}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.3}量和单位}{5}{section.3.3}%
+\contentsline {section}{\numberline {3.4}定理和证明}{5}{section.3.4}%
+\contentsline {chapter}{\numberline {第4章}引用文献的标注}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}顺序编码制}{7}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}角标数字标注法}{7}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}数字标注法}{7}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}著者-出版年制标注法}{7}{section.4.2}%
+\contentsline {chapter}{参考文献}{8}{chapter*.13}%
+\contentsline {chapter}{\numberline {附录 A}补充材料}{10}{appendix.A}%
+\contentsline {section}{\numberline {A.1}补充章节}{10}{section.A.1}%
+\contentsline {chapter}{致谢}{11}{appendix*.14}%
+\contentsline {chapter}{攻读学位期间的研究成果}{12}{appendix*.15}%
+\contentsfinish 
